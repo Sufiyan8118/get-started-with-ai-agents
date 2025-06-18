@@ -13,3 +13,4 @@ azure-monitor-opentelemetry>=1.6.9
 azure-search-documents
 opentelemetry-sdk
 setuptools==80.9.0
+requests
