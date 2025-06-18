@@ -12,6 +12,10 @@ from fastapi.responses import HTMLResponse, JSONResponse, StreamingResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.responses import JSONResponse
 
+from app.agent_setup import build_agent  # Adjust to your project structure
+
+agent = build_agent()
+
 import logging
 from opentelemetry.trace.propagation.tracecontext import TraceContextTextMapPropagator
 
